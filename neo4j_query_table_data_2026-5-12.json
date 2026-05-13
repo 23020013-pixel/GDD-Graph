@@ -1,0 +1,440 @@
+[
+  {
+    "label": "RELATION",
+    "property": "Entity",
+    "count": 436,
+    "unique": false,
+    "index": false,
+    "existence": false,
+    "type": "RELATIONSHIP",
+    "array": true,
+    "sample": null,
+    "left": 113,
+    "right": 58,
+    "other": [
+      "Entity",
+      "Gene",
+      "Compound",
+      "Disease"
+    ],
+    "otherLabels": [
+
+    ],
+    "elementType": "relationship"
+  },
+  {
+    "label": "RELATION",
+    "property": "type",
+    "count": 0,
+    "unique": false,
+    "index": false,
+    "existence": false,
+    "type": "STRING",
+    "array": false,
+    "sample": null,
+    "left": 0,
+    "right": 0,
+    "other": [
+
+    ],
+    "otherLabels": [
+
+    ],
+    "elementType": "relationship"
+  },
+  {
+    "label": "RELATION",
+    "property": "Compound",
+    "count": 1529,
+    "unique": false,
+    "index": false,
+    "existence": false,
+    "type": "RELATIONSHIP",
+    "array": true,
+    "sample": null,
+    "left": 129,
+    "right": 4,
+    "other": [
+      "Entity",
+      "Compound",
+      "Disease",
+      "Gene"
+    ],
+    "otherLabels": [
+
+    ],
+    "elementType": "relationship"
+  },
+  {
+    "label": "RELATION",
+    "property": "Gene",
+    "count": 879,
+    "unique": false,
+    "index": false,
+    "existence": false,
+    "type": "RELATIONSHIP",
+    "array": true,
+    "sample": null,
+    "left": 71,
+    "right": 71,
+    "other": [
+      "Entity",
+      "Gene"
+    ],
+    "otherLabels": [
+
+    ],
+    "elementType": "relationship"
+  },
+  {
+    "label": "RELATION",
+    "property": "Disease",
+    "count": 136,
+    "unique": false,
+    "index": false,
+    "existence": false,
+    "type": "RELATIONSHIP",
+    "array": true,
+    "sample": null,
+    "left": 260,
+    "right": 12,
+    "other": [
+      "Entity",
+      "Gene",
+      "Disease"
+    ],
+    "otherLabels": [
+
+    ],
+    "elementType": "relationship"
+  },
+  {
+    "label": "Entity",
+    "property": "RELATION",
+    "count": 436,
+    "unique": false,
+    "index": false,
+    "existence": false,
+    "type": "RELATIONSHIP",
+    "array": true,
+    "sample": null,
+    "left": 113,
+    "right": 58,
+    "other": [
+      "Entity",
+      "Gene",
+      "Compound",
+      "Disease"
+    ],
+    "otherLabels": [
+
+    ],
+    "elementType": "node"
+  },
+  {
+    "label": "Entity",
+    "property": "id",
+    "count": 0,
+    "unique": true,
+    "index": true,
+    "existence": false,
+    "type": "STRING",
+    "array": false,
+    "sample": null,
+    "left": 0,
+    "right": 0,
+    "other": [
+
+    ],
+    "otherLabels": [
+
+    ],
+    "elementType": "node"
+  },
+  {
+    "label": "Entity",
+    "property": "kind",
+    "count": 0,
+    "unique": false,
+    "index": false,
+    "existence": false,
+    "type": "STRING",
+    "array": false,
+    "sample": null,
+    "left": 0,
+    "right": 0,
+    "other": [
+
+    ],
+    "otherLabels": [
+
+    ],
+    "elementType": "node"
+  },
+  {
+    "label": "Entity",
+    "property": "name",
+    "count": 0,
+    "unique": false,
+    "index": false,
+    "existence": false,
+    "type": "STRING",
+    "array": false,
+    "sample": null,
+    "left": 0,
+    "right": 0,
+    "other": [
+
+    ],
+    "otherLabels": [
+
+    ],
+    "elementType": "node"
+  },
+  {
+    "label": "Compound",
+    "property": "RELATION",
+    "count": 1529,
+    "unique": false,
+    "index": false,
+    "existence": false,
+    "type": "RELATIONSHIP",
+    "array": true,
+    "sample": null,
+    "left": 129,
+    "right": 4,
+    "other": [
+      "Entity",
+      "Compound",
+      "Disease",
+      "Gene"
+    ],
+    "otherLabels": [
+
+    ],
+    "elementType": "node"
+  },
+  {
+    "label": "Compound",
+    "property": "id",
+    "count": 0,
+    "unique": false,
+    "index": false,
+    "existence": false,
+    "type": "STRING",
+    "array": false,
+    "sample": null,
+    "left": 0,
+    "right": 0,
+    "other": [
+
+    ],
+    "otherLabels": [
+
+    ],
+    "elementType": "node"
+  },
+  {
+    "label": "Compound",
+    "property": "kind",
+    "count": 0,
+    "unique": false,
+    "index": false,
+    "existence": false,
+    "type": "STRING",
+    "array": false,
+    "sample": null,
+    "left": 0,
+    "right": 0,
+    "other": [
+
+    ],
+    "otherLabels": [
+
+    ],
+    "elementType": "node"
+  },
+  {
+    "label": "Compound",
+    "property": "name",
+    "count": 0,
+    "unique": false,
+    "index": false,
+    "existence": false,
+    "type": "STRING",
+    "array": false,
+    "sample": null,
+    "left": 0,
+    "right": 0,
+    "other": [
+
+    ],
+    "otherLabels": [
+
+    ],
+    "elementType": "node"
+  },
+  {
+    "label": "Gene",
+    "property": "RELATION",
+    "count": 879,
+    "unique": false,
+    "index": false,
+    "existence": false,
+    "type": "RELATIONSHIP",
+    "array": true,
+    "sample": null,
+    "left": 71,
+    "right": 71,
+    "other": [
+      "Entity",
+      "Gene"
+    ],
+    "otherLabels": [
+
+    ],
+    "elementType": "node"
+  },
+  {
+    "label": "Gene",
+    "property": "kind",
+    "count": 0,
+    "unique": false,
+    "index": false,
+    "existence": false,
+    "type": "STRING",
+    "array": false,
+    "sample": null,
+    "left": 0,
+    "right": 0,
+    "other": [
+
+    ],
+    "otherLabels": [
+
+    ],
+    "elementType": "node"
+  },
+  {
+    "label": "Gene",
+    "property": "id",
+    "count": 0,
+    "unique": false,
+    "index": false,
+    "existence": false,
+    "type": "STRING",
+    "array": false,
+    "sample": null,
+    "left": 0,
+    "right": 0,
+    "other": [
+
+    ],
+    "otherLabels": [
+
+    ],
+    "elementType": "node"
+  },
+  {
+    "label": "Gene",
+    "property": "name",
+    "count": 0,
+    "unique": false,
+    "index": false,
+    "existence": false,
+    "type": "STRING",
+    "array": false,
+    "sample": null,
+    "left": 0,
+    "right": 0,
+    "other": [
+
+    ],
+    "otherLabels": [
+
+    ],
+    "elementType": "node"
+  },
+  {
+    "label": "Disease",
+    "property": "RELATION",
+    "count": 136,
+    "unique": false,
+    "index": false,
+    "existence": false,
+    "type": "RELATIONSHIP",
+    "array": true,
+    "sample": null,
+    "left": 260,
+    "right": 12,
+    "other": [
+      "Entity",
+      "Gene",
+      "Disease"
+    ],
+    "otherLabels": [
+
+    ],
+    "elementType": "node"
+  },
+  {
+    "label": "Disease",
+    "property": "name",
+    "count": 0,
+    "unique": false,
+    "index": false,
+    "existence": false,
+    "type": "STRING",
+    "array": false,
+    "sample": null,
+    "left": 0,
+    "right": 0,
+    "other": [
+
+    ],
+    "otherLabels": [
+
+    ],
+    "elementType": "node"
+  },
+  {
+    "label": "Disease",
+    "property": "id",
+    "count": 0,
+    "unique": false,
+    "index": false,
+    "existence": false,
+    "type": "STRING",
+    "array": false,
+    "sample": null,
+    "left": 0,
+    "right": 0,
+    "other": [
+
+    ],
+    "otherLabels": [
+
+    ],
+    "elementType": "node"
+  },
+  {
+    "label": "Disease",
+    "property": "kind",
+    "count": 0,
+    "unique": false,
+    "index": false,
+    "existence": false,
+    "type": "STRING",
+    "array": false,
+    "sample": null,
+    "left": 0,
+    "right": 0,
+    "other": [
+
+    ],
+    "otherLabels": [
+
+    ],
+    "elementType": "node"
+  }
+]
